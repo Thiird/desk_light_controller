@@ -1,0 +1,1 @@
+stm32flash -b 115200 -i -rts,dtr:-dtr,rts -w ./program.bin /dev/ttyUSB0
